@@ -1,0 +1,18 @@
+{
+  "name": "sensenet_serial",
+  "version": "0.0.1",
+  "description": "A SenseNet program to communicate with device via serial",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacky Boen",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "parse": "^1.6.14"
+  },
+  "dependencies": {
+    "pusher": "^1.1.0",
+    "serialport": "^2.0.6"
+  }
+}
