@@ -8,10 +8,8 @@
   },
   "author": "Jacky Boen",
   "license": "GPL-2.0",
-  "devDependencies": {
-    "parse": "^1.6.14"
-  },
   "dependencies": {
+    "parse": "^1.6.14",
     "pusher": "^1.1.0",
     "serialport": "^2.0.6"
   }
