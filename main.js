@@ -1,5 +1,8 @@
 'use strict';
 
+// Configurations
+const DEBUG = true;
+
 // Process
 const process = require('process');
 
@@ -66,7 +69,9 @@ serialPort.on('open', function() {
 		}
 
 		if (reading) {
-			console.log(reading);
+			if (DEBUG) {
+				console.log(reading);
+			}
 			sendData(reading);
 		}
 
